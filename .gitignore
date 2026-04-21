@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Data (generated at runtime — do not commit large files)
+data/raw/
+data/processed/
+data/reports/
+data/*.db
+
+# Logs
+logs/
+
+# IDE
+.vscode/settings.json
+.idea/
+*.DS_Store
